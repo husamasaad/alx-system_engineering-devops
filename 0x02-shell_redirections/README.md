@@ -50,4 +50,6 @@ Task 23 : find . -empty | rev | cut -d "/" -f 1 | rev
 
 Task 24 : find . -type f -name "*.gif" | rev | cut -d "/" -f 1 | rev | cut -d "." -f 2- | rev | LC_ALL=C sort -f
 
+Task 25 : cut -c 1 | paste -s -d ''
+
 
