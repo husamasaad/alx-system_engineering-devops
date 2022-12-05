@@ -38,4 +38,6 @@ TAsk 17 : grep -i -v "bin" /etc/passwd
 
 Task 18 : grep -i "^[a-z]" /etc/ssh/sshd_config
 
+Task 19 : tr "A" "Z" | tr "c" "e"
+
 
