@@ -46,4 +46,6 @@ TASK 21 : rev
 
 Task 22 : cut -d ":" -f 1,6 /etc/passwd | sort
 
+Task 23 : find . -empty | rev | cut -d "/" -f 1 | rev
+
 
