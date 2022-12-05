@@ -44,4 +44,6 @@ Task 20 : tr -d "cC"
 
 TASK 21 : rev
 
+Task 22 : cut -d ":" -f 1,6 /etc/passwd | sort
+
 
