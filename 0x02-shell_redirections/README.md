@@ -18,4 +18,6 @@ Task 7 : echo "Best School" > \\\*\\\\"'\"Best School\"\\'"\\\\\*\$\\\?\\\*\\\*\
 
 Task 8 : ls -la > ls_cwd_content
 
+Task 9 : tail -n 1 iacta >> iacta
+
 
