@@ -41,3 +41,7 @@ Task 18 : grep -i "^[a-z]" /etc/ssh/sshd_config
 Task 19 : tr "A" "Z" | tr "c" "e"
 
 Task 20 : tr -d "cC"
+
+TASK 21 : rev
+
+
