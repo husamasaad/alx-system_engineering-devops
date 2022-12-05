@@ -28,4 +28,6 @@ Task 12 : ls -t1 | head -n 10
 
 Task 13 : sort | uniq -u
 
+Task 14 : grep -i "root" /etc/passwd
+
 
