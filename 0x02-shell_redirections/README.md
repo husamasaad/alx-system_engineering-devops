@@ -30,4 +30,6 @@ Task 13 : sort | uniq -u
 
 Task 14 : grep -i "root" /etc/passwd
 
+Task 15 : grep -c -i "bin" /etc/passwd
+
 
