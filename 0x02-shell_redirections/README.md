@@ -15,3 +15,7 @@ TAsk 5 : head /etc/passwd
 Task 6 : head -3 iacta | tail -1
 
 Task 7 : echo "Best School" > \\\*\\\\"'\"Best School\"\\'"\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
+
+Task 8 : ls -la > ls_cwd_content
+
+
