@@ -23,3 +23,7 @@ Task 9 : tail -n 1 iacta >> iacta
 Task 10 : find . -type f -name "*.js" -delete
 
 Task 11 : find . -type d -not -name '.' | wc -l
+
+Task 12 : ls -t1 | head -n 10
+
+
