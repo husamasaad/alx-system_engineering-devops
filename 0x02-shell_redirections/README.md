@@ -20,4 +20,6 @@ Task 8 : ls -la > ls_cwd_content
 
 Task 9 : tail -n 1 iacta >> iacta
 
+Task 10 : find . -type f -name "*.js" -delete
+
 
