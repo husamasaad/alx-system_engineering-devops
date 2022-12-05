@@ -8,3 +8,4 @@ Task 2 : cat /etc/passwd
 
 Task 3 : cat /etc/passwd /etc/hosts                                                                                                                    
 
+Task 4 : tail -n 10 /etc/passwd
