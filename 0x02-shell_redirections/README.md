@@ -26,4 +26,6 @@ Task 11 : find . -type d -not -name '.' | wc -l
 
 Task 12 : ls -t1 | head -n 10
 
+Task 13 : sort | uniq -u
+
 
