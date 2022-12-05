@@ -12,3 +12,6 @@ Task 4 : tail -n 10 /etc/passwd
 
 TAsk 5 : head /etc/passwd
 
+Task 6 : head -3 iacta | tail -1
+
+
