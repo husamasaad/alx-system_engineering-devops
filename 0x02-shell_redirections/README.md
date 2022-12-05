@@ -32,4 +32,6 @@ Task 14 : grep -i "root" /etc/passwd
 
 Task 15 : grep -c -i "bin" /etc/passwd
 
+Task 16 : grep -i "root" -A 3 /etc/passwd
+
 
