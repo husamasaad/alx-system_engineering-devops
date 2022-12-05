@@ -35,3 +35,7 @@ Task 15 : grep -c -i "bin" /etc/passwd
 Task 16 : grep -i "root" -A 3 /etc/passwd
 
 TAsk 17 : grep -i -v "bin" /etc/passwd
+
+Task 18 : grep -i "^[a-z]" /etc/ssh/sshd_config
+
+
