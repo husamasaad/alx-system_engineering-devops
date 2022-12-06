@@ -31,4 +31,6 @@ Task 13 : printf %0.2f'\n' $NUM
 
 Task 14 : 100-decimal_to_hexadecimal
 
-Task 15 :
+Task 15 : tr 'A-Za-z' 'N-ZA-Mn-za-m'
+
+Task 16 : 
