@@ -15,4 +15,6 @@ Task 5 : set
 
 Task 6 : BEST=School
 
+Task 7 : export BEST="School"
+
 
