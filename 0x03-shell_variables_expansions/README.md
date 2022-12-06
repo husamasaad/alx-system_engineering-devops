@@ -7,4 +7,6 @@ Task 1 : echo "hello $USER"
 
 Task 2 : export PATH=$PATH:/action
 
+Task 3 : echo $PATH | tr -s ':' '\n' | wc -l
+
 
