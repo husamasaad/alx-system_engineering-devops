@@ -17,4 +17,8 @@ Task 6 : BEST=School
 
 Task 7 : export BEST="School"
 
+Task 8 : echo $((128 + TRUEKNOWLEDGE))
+
+Task 9 : echo $((POWER / DIVIDE))
+
 
