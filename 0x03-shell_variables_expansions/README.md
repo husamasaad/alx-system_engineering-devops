@@ -24,3 +24,7 @@ Task 9 : echo $((POWER / DIVIDE))
 Task 10 : echo $((BREATH**LOVE))
 
 Task 11 : echo $((2#$BINARY))
+
+Task 12 : printf %s'\n' {a..z}{a..z} | grep -v 'oo'
+
+Task 13 : 
