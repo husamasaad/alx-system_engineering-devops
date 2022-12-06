@@ -21,4 +21,6 @@ Task 8 : echo $((128 + TRUEKNOWLEDGE))
 
 Task 9 : echo $((POWER / DIVIDE))
 
+Task 10 : echo $((BREATH**LOVE))
 
+Task 11 : echo $((2#$BINARY))
