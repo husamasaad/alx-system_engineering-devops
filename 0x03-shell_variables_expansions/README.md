@@ -33,4 +33,6 @@ Task 14 : 100-decimal_to_hexadecimal
 
 Task 15 : tr 'A-Za-z' 'N-ZA-Mn-za-m'
 
-Task 16 : 
+Task 16 : paste - - | cut -f1
+
+Task 17 :  
