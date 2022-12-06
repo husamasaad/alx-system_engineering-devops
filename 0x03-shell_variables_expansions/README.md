@@ -28,3 +28,7 @@ Task 11 : echo $((2#$BINARY))
 Task 12 : printf %s'\n' {a..z}{a..z} | grep -v 'oo'
 
 Task 13 : printf %0.2f'\n' $NUM 
+
+Task 14 : 100-decimal_to_hexadecimal
+
+Task 15 :
