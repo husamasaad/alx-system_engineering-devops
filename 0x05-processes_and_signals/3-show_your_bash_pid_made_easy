@@ -5,6 +5,6 @@ for pid in /proc/*/status; do
 	if grep -q "Name:.*bash" "$pid"; then
 		process_pid=$(awk '/Pid:/ {print $2}' "$pid")
 		process_name=$(awk '/Name:/ {print $2}' "$pid")
-		echo "PID: $process_pid, Process Name: $process_name"
+		echo "$process_pid, $process_name"
 	fi
 done
