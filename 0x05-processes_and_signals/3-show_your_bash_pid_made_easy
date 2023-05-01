@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
 #  displays the PID, along with the process name, of processes whose name contain the word
 
-pgrep -l bash
+for pid in /proc/*/status; do
+	if grep -q "Name:.*bash" "$pid"; then
+		process_pid=$(awk '/Pid:/ {print $2}' "$pid")
+		process_name=$(awk '/Name:/ {print $2}' "$pid")
+		echo "PID: $process_pid, Process Name: $process_name"
+	fi
+done
