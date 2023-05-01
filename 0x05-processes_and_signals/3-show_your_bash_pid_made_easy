@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-#  displays the PID, along with the process name, of processes whose name contain the word
+#  displays the PID, along with the process name, of processes whose name contain the word:
 
-for pid in /proc/*/status; do
-	if grep -q "Name:.*bash" "$pid"; then
-		process_pid=$(awk '/Pid:/ {print $2}' "$pid")
-		process_name=$(awk '/Name:/ {print $2}' "$pid")
+for pid in /proc/*/comm; do
+	if grep -q "^bash$" "$pid"; then
+		process_pid=$(awk -F/ '{print $(NF-1)}' "$pid")
+		process_name=$(cat "$pid")
 		echo "$process_pid $process_name"
 	fi
 done
